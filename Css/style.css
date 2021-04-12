@@ -1,0 +1,44 @@
+body {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: yellowgreen;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header {
+  font-size: 36px;
+  color: #1b2ed8;
+  font-weight: 600;
+}
+
+.container .textdemo {
+  color: #918989;
+  padding: 16px;
+  display: block;
+}
+
+.container .box {
+  width: 100px;
+  height: 100px;
+  background-color: #454545;
+}
+
+.container .box__card {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+}
+/*# sourceMappingURL=style.css.map */

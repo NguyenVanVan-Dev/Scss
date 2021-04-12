@@ -1,0 +1,32 @@
+body{
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+}
+.container{
+    background-color: yellowgreen;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header{
+        font-size: 36px;
+        color: rgb(27, 46, 216);
+        font-weight: 600;
+    }
+    .textdemo{
+        color: rgb(145, 137, 137);
+        padding: 16px;
+        display: block;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: #454545;
+        &__card{
+            text-align: center;
+            color: white;
+            line-height: 100px;
+        }
+    }
+}
