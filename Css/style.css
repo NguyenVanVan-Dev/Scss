@@ -1,3 +1,35 @@
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: #08f828;
+}
+
+.content__header {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
+.content__text {
+  font-size: 12px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.content .box {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid #888;
+}
+
+.content .box__element {
+  text-align: center;
+  color: blue;
+  line-height: 200px;
+}
+
 body {
   text-decoration: none;
   margin: 0;
